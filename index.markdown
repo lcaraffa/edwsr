@@ -24,10 +24,10 @@ header_img : /assets/header.jpg
 # Code
 Unfortunately the source code is not aviable yet :(
 We did a proof a concept for the article but the program is actually a mix of Apache/Spark, c++ with CGAL... a big mess!
-Howerver, we are working to extract each brick of the pipeline and making it open source.
+However, we are working to extract each brick of the pipeline and making it open source.
 If you are interested in any aspect of the code, write us!
 
-to keep you up to date! => [Github](https://github.com/lcaraffa), [Twitter](https://twitter.com/LCaraffa)
+For further updates => [Github](https://github.com/lcaraffa), [Twitter](https://twitter.com/LCaraffa)
 
 # News
  - 2021-12-10 : Page online
