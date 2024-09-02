@@ -22,10 +22,8 @@ header_img : /assets/header.jpg
  We present an out-of-core and distributed surface reconstruction algorithm which scales efficiently on arbitrarily large point clouds (with optical centres) and produces a 3D watertight triangle mesh representing the surface of the underlying scene. Surface reconstruction from a point cloud is a difficult problem and existing state of the art approaches are usually based on complex pipelines making use of global algorithms (i.e. Delaunay triangulation, graph-cut optimisation). For one of these approaches, we investigate the distribution of all the steps (in particular Delaunay triangulation and graph-cut optimisation) in order to propose a fully scalable method. We show that the problem can be tiled and distributed across a cloud or a cluster of PCs by paying a careful attention to the interactions between tiles and using Spark computing framework. We confirm the efficiency of this approach with an in-depth quantitative evaluation and the successful reconstruction of a surface from a very large data set which combines more than 350 million aerial and terrestrial LiDAR points.
 
 # Code
-Unfortunately the source code is not aviable yet :(
-We did a proof a concept for the article but the program is actually a mix of Apache/Spark, c++ with CGAL... a big mess!
-However, we are working to extract each brick of the pipeline and making it open source.
-If you are interested in any aspect of the code, write us!
+A simplified version adapted to the [LiDAR HD dataset](https://geoservices.ign.fr/lidarhd)  
+https://github.com/lcaraffa/sparkling-wasure
 
 For further updates => [Github](https://github.com/lcaraffa), [Twitter](https://twitter.com/LCaraffa)
 
